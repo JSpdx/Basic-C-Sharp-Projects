@@ -5,7 +5,7 @@ namespace variables_and_data_types
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             // THis is a simple program
             //Console.WriteLine("What is your name?");
