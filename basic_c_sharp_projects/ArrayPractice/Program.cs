@@ -32,6 +32,7 @@ namespace ArrayPractice
                     
                     Console.WriteLine("\nPick a number between 0 and 2:");
                     i = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("");
                     Console.WriteLine(intArray[i]);
                     
                     appExit = true;
@@ -45,6 +46,18 @@ namespace ArrayPractice
                     Console.WriteLine("Oops! You didn't enter anything. Try again!\n");
                 }
             }
+
+            List<string> lotrTitles = new List<string>();
+            lotrTitles.Add("\nThe Fellowship of the Ring");
+            lotrTitles.Add("\nThe Two Towers");
+            lotrTitles.Add("\nThe Return of the King");
+
+            Console.WriteLine("\nPick a number between 0 and 2:");
+            int userIndex = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(lotrTitles[userIndex]);
+
+
+
             Console.ReadLine();
             System.Environment.Exit(0);
         }
