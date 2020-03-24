@@ -89,36 +89,51 @@ namespace iterationExercise
             //Console.ReadLine();
 
 
-            //Step 9:
+            //Step 9, 10:
 
-            List<string> names = new List<string>() {"Bob", "Karen", "LaToya", "Manuel", "LaToya", "Bob" };
-            Console.WriteLine("Enter a name");
-            string userEntry = Console.ReadLine().ToLower();
-            int counter = 0;
-            for (int i = 0; i < names.Count; i++)
+            //List<string> names = new List<string>() {"bob", "karen", "latoya", "manuel", "latoya", "bob" };
+            //Console.WriteLine("Enter a name");
+            //string userEntry = Console.ReadLine().ToLower();
+            //int counter = 0;
+            //for (int i = 0; i < names.Count; i++)
+            //{
+            //    if (names[i].Contains(userEntry))
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //    if (!names[i].Contains(userEntry))
+            //    {
+            //        counter++;
+            //        if (counter == names.Count)
+            //        {
+            //            Console.WriteLine("looks like your text wasn't in the list");
+            //        }
+            //    }
+            //}
+            //Console.ReadLine();
+
+
+            //Step 11:
+
+            List<string> dogs = new List<string> { "korgi", "pitbull", "poodle", "terrier", "poodle", "pitbull" };
+            List<string> crosscheck = new List<string>();
+            foreach (string dog in dogs)
             {
-                Console.WriteLine(names[i]);
-                if (names[i].Contains(userEntry))
+                if (!crosscheck.Contains(dog))
                 {
-                    Console.WriteLine("aasd");
-                    Console.WriteLine(i);
-                    
+                    Console.WriteLine(dog + " has not yet appeared in the list");
                 }
-                //if (!names[i].Contains(userEntry))
-                //{
-                //    Console.WriteLine("sdf");
-                //    counter++;
-                //    if (counter == names.Count)
-                //    {
-                //        Console.WriteLine("looks like your text wasn't in the list");
-                //    }
-                //}
+                if (crosscheck.Contains(dog))
+                {
+                    Console.WriteLine(dog + " has already appeared in the list");
+                }
+                crosscheck.Add(dog);
             }
             Console.ReadLine();
         }
     }
 }
-//            IN A CONSOLE APP, CREATE CODE THAT DOES THE FOLLOWING:
+//   Application requirements
 
 //1. Create a one-dimensional Array of strings. Ask the user to input some text. Create a loop that goes through each string in the Array,
 //   adding the user’s text to the string. Then create a loop that prints off each string in the Array on a separate line.
