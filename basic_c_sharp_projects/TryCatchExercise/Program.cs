@@ -9,20 +9,22 @@ namespace TryCatchExercise
             try
             {
                 List<int> numList = new List<int>() { 1, 324, 4, 12, 7634, 3, 32 };
-                Console.WriteLine("Please enter a denominator");
+                Console.WriteLine("Please enter a denominator\n");
                 int denominator = Convert.ToInt32(Console.ReadLine());
                 foreach (int num in numList)
                 {
                     Console.WriteLine(num + "/" + denominator + " = " + num / denominator);
+                    Console.WriteLine();
                 }
             }
             catch (DivideByZeroException)
             {
-                Console.WriteLine("You can't divide by zero poindexter!");
+                Console.WriteLine("\nYou can't divide by zero poindexter!\n");
             }
             catch (FormatException ex)
             {
                 Console.WriteLine(ex.Message);
+                Console.WriteLine();
             }
             finally
             {
