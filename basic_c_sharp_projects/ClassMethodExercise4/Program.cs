@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//This exercise uses named arguments and a void method
 namespace ClassMethodExercise4
 {
     class Program
