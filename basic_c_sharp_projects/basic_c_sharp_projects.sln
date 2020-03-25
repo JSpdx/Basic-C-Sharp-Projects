@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMethodExercise2", "Cla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMethodExercise3", "ClassMethodExercise3\ClassMethodExercise3.csproj", "{6EE78F89-5F75-44FF-94A4-104F5F8A40F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMethodExercise4", "ClassMethodExercise4\ClassMethodExercise4.csproj", "{5413971B-F4CB-4C98-9D35-E64920B999E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{6EE78F89-5F75-44FF-94A4-104F5F8A40F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EE78F89-5F75-44FF-94A4-104F5F8A40F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EE78F89-5F75-44FF-94A4-104F5F8A40F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5413971B-F4CB-4C98-9D35-E64920B999E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5413971B-F4CB-4C98-9D35-E64920B999E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5413971B-F4CB-4C98-9D35-E64920B999E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5413971B-F4CB-4C98-9D35-E64920B999E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
