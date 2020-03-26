@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMethodExercise4", "Cla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMethodExercise5", "ClassMethodExercise5\ClassMethodExercise5.csproj", "{9BCFAE5B-EEC3-459F-933B-CC545C37ACD5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassInheritanceExercise", "ClassInheritanceExercise\ClassInheritanceExercise.csproj", "{302FDC0B-94EE-484D-801D-1CEB88EC6E2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{9BCFAE5B-EEC3-459F-933B-CC545C37ACD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BCFAE5B-EEC3-459F-933B-CC545C37ACD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BCFAE5B-EEC3-459F-933B-CC545C37ACD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{302FDC0B-94EE-484D-801D-1CEB88EC6E2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{302FDC0B-94EE-484D-801D-1CEB88EC6E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{302FDC0B-94EE-484D-801D-1CEB88EC6E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{302FDC0B-94EE-484D-801D-1CEB88EC6E2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+//Exercise using void methods and static classes
 namespace ClassMethodExercise5
 {
     class Program
@@ -16,7 +18,5 @@ namespace ClassMethodExercise5
 
             Console.Read();
         }
-        
     }
-
 }
