@@ -12,6 +12,10 @@ namespace ClassAbstractExercise
         {
             Employee employee = new Employee() { firstName = "Mel", lastName = "Brooks" };
             employee.SayName();
+            employee.Quit();
+            Console.WriteLine("Is " + employee.firstName + " " + employee.lastName + " currently employed? " + employee.CurrentlyEmployed);
+            Console.Read();
+
         }
     }
 }

@@ -6,12 +6,18 @@ using System.Threading.Tasks;
 
 namespace ClassAbstractExercise
 {
-    public class Employee : Person
+    public class Employee : Person, IQuittable
     {
         public override void SayName()
         {
             Console.WriteLine("Name: " + firstName + " " + lastName);
-            Console.ReadLine();
         }
+
+        public void Quit()
+        {
+            CurrentlyEmployed = false;
+        }
+
+        public bool CurrentlyEmployed { get; set; }
     }
 }
