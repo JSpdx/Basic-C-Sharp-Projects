@@ -18,6 +18,7 @@ namespace ClassAbstractExercise
             CurrentlyEmployed = false;
         }
 
+        //overloaded operators to compare employees by ID
         public static bool operator ==(Employee a, Employee b)
         {
             return a.Id == b.Id;

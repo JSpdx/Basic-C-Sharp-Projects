@@ -18,8 +18,11 @@ namespace ClassAbstractExercise
             employee1.Quit();
             Console.WriteLine("Is " + employee1.firstName + " " + employee1.lastName + " currently employed? " + employee1.CurrentlyEmployed);
 
+            //comparing employees by ID
             Console.WriteLine("Are these Employee objects the same?");
-            Console.WriteLine(employee1 == employee2);
+            Console.WriteLine(employee1 == employee2);               // Uses overloaded == operator
+            //Console.WriteLine(employee1.Id == employee2.Id);      //Same thing as the line above
+
             Console.Read();
 
         }
