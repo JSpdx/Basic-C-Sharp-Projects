@@ -10,10 +10,16 @@ namespace ClassAbstractExercise
     {
         static void Main(string[] args)
         {
-            Employee employee = new Employee() { firstName = "Mel", lastName = "Brooks" };
-            employee.SayName();
-            employee.Quit();
-            Console.WriteLine("Is " + employee.firstName + " " + employee.lastName + " currently employed? " + employee.CurrentlyEmployed);
+            Employee employee1 = new Employee() { firstName = "Mel", lastName = "Brooks", Id = 1 };
+
+            Employee employee2 = new Employee() { firstName = "John", lastName = "Candy", Id = 2 };
+            
+            employee1.SayName();
+            employee1.Quit();
+            Console.WriteLine("Is " + employee1.firstName + " " + employee1.lastName + " currently employed? " + employee1.CurrentlyEmployed);
+
+            Console.WriteLine("Are these Employee objects the same?");
+            Console.WriteLine(employee1 == employee2);
             Console.Read();
 
         }

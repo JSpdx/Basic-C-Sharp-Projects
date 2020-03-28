@@ -18,6 +18,20 @@ namespace ClassAbstractExercise
             CurrentlyEmployed = false;
         }
 
+        public static bool operator ==(Employee a, Employee b)
+        {
+            return a.Id == b.Id;
+        }
+        public static bool operator !=(Employee a, Employee b)
+        {
+            return a.Id != b.Id;
+        }
+
+
+        public int Id { get; set; }
+
+        //Used for the Quit() method
         public bool CurrentlyEmployed { get; set; }
+
     }
 }
