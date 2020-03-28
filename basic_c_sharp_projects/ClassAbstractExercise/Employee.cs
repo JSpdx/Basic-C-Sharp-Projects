@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassAbstractExercise
 {
-    public class Employee : Person, IQuittable
+    public class Employee<T> : Person, IQuittable
     {
         public override void SayName()
         {
@@ -18,12 +18,24 @@ namespace ClassAbstractExercise
             CurrentlyEmployed = false;
         }
 
+        public void PrintThings()
+        {
+            foreach ( T thing in Things)
+            {
+                Console.WriteLine(thing);
+                Console.ReadLine();
+            }
+        }
+        
+        
+        public List<T> Things { get; set; }
+
         //overloaded operators to compare employees by ID
-        public static bool operator ==(Employee a, Employee b)
+        public static bool operator ==(Employee<T> a, Employee<T> b)
         {
             return a.Id == b.Id;
         }
-        public static bool operator !=(Employee a, Employee b)
+        public static bool operator !=(Employee<T> a, Employee<T> b)
         {
             return a.Id != b.Id;
         }
@@ -33,6 +45,5 @@ namespace ClassAbstractExercise
 
         //Used for the Quit() method
         public bool CurrentlyEmployed { get; set; }
-
     }
 }
