@@ -15,13 +15,13 @@ namespace EnumExercise
             while (complete != true)
             {
 
-                
+
                 try
                 {
                     string userDay = Console.ReadLine();
                     userDay = userDay.ToLower();
                     Days day = (Days)Enum.Parse(typeof(Days), userDay);
-                    Console.WriteLine("You entered:\n"+ day);
+                    Console.WriteLine("You entered:\n" + day);
                     complete = true;
                 }
                 catch
@@ -29,7 +29,7 @@ namespace EnumExercise
                     Console.WriteLine("Please enter an actual day of the week.");
                 }
             }
-            Console.Read();
+
 
         }
         enum Days
