@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassInheritanceExercise", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassAbstractExercise", "ClassAbstractExercise\ClassAbstractExercise.csproj", "{4A881BAA-2365-4239-BDC4-8893FE330587}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumExercise", "EnumExercise\EnumExercise.csproj", "{29C176FA-F103-4BBE-AAAD-C733428DDB11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{4A881BAA-2365-4239-BDC4-8893FE330587}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A881BAA-2365-4239-BDC4-8893FE330587}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A881BAA-2365-4239-BDC4-8893FE330587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29C176FA-F103-4BBE-AAAD-C733428DDB11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29C176FA-F103-4BBE-AAAD-C733428DDB11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29C176FA-F103-4BBE-AAAD-C733428DDB11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29C176FA-F103-4BBE-AAAD-C733428DDB11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
