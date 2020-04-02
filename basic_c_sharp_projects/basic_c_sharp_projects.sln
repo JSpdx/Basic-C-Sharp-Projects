@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOExercise", "IOExercise\IO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeExercise", "DateTimeExercise\DateTimeExercise.csproj", "{6D0AB71B-E5E3-4D89-B9A1-C6961D3284CB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor Chaining", "Constructor Chaining\Constructor Chaining.csproj", "{1C2235F1-52C9-4BBD-ADCD-51277214CEDE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +185,10 @@ Global
 		{6D0AB71B-E5E3-4D89-B9A1-C6961D3284CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D0AB71B-E5E3-4D89-B9A1-C6961D3284CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D0AB71B-E5E3-4D89-B9A1-C6961D3284CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C2235F1-52C9-4BBD-ADCD-51277214CEDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C2235F1-52C9-4BBD-ADCD-51277214CEDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C2235F1-52C9-4BBD-ADCD-51277214CEDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C2235F1-52C9-4BBD-ADCD-51277214CEDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
