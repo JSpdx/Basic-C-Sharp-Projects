@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeExercise", "DateTim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor Chaining", "Constructor Chaining\Constructor Chaining.csproj", "{1C2235F1-52C9-4BBD-ADCD-51277214CEDE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling2", "ExceptionHandling2\ExceptionHandling2.csproj", "{2710FBA8-A32E-4984-B237-D570F41D9798}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +191,10 @@ Global
 		{1C2235F1-52C9-4BBD-ADCD-51277214CEDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C2235F1-52C9-4BBD-ADCD-51277214CEDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C2235F1-52C9-4BBD-ADCD-51277214CEDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2710FBA8-A32E-4984-B237-D570F41D9798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2710FBA8-A32E-4984-B237-D570F41D9798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2710FBA8-A32E-4984-B237-D570F41D9798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2710FBA8-A32E-4984-B237-D570F41D9798}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
