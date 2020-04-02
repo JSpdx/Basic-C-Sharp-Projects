@@ -11,7 +11,7 @@ namespace ExceptionHandling2
         static void Main(string[] args)
         {
             bool isValid = false;
-            int age = 0;
+            int age = 1;
             while (!isValid)
             {
                 try
@@ -19,20 +19,31 @@ namespace ExceptionHandling2
                     Console.WriteLine("Please enter your age:\n");
                     isValid = int.TryParse(Console.ReadLine(), out age);
                     if (!isValid) Console.WriteLine("Please enter a valid age.");
-                    
+                    if (age <= 0)
+                    {
+                        throw new AgeException("User entered a number smaller than 0");
+                    }
                     DateTime date = DateTime.Now;
                     TimeSpan years = new TimeSpan(age * 365, 0, 0, 0, 0);
                     DateTime yearBorn = date - years;
                     Console.WriteLine("You were born in the year {0}", yearBorn.Year);
+                    Console.ReadLine();
                 }
                 catch (ArgumentOutOfRangeException)
                 {
                     Console.WriteLine("The number you entered was too high");
-                    
+                    isValid = false;
                 }
-
-                Console.ReadLine();
-
+                catch (AgeException)
+                {
+                    Console.WriteLine("Please enter a non decimal number larger than 0");
+                    isValid = false;
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("Looks like something went wrong.");
+                    isValid = false;
+                }
             }
         }
     }
